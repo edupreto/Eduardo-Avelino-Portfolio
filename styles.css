@@ -380,7 +380,7 @@ h3{
 }
 
 .tec i{
-  height: 1.4rem;
+  height: 1.8rem;
   width: auto;
   padding-left: 80px;
   color: var(--color-blue-0);
@@ -421,9 +421,7 @@ h3{
   body{
     overflow-x: hidden;
     min-width: 320px;    
-  }
-
-  
+  }  
 
   .title h2{
     font-size: 1.8rem;
@@ -543,8 +541,6 @@ h3{
   .container__link {
     padding-bottom: 20px;
   }
-
-
 }
 
 .nav-list.active{
@@ -561,10 +557,6 @@ h3{
     transform: translateX(0);
   }
 }
-
-
-
-
 
 @media screen and (max-width: 780px) {
   .footer-box{
