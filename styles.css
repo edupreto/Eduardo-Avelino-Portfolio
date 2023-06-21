@@ -379,11 +379,10 @@ h3{
   font-size: 1rem;
 }
 
-.tec i{
-  height: 1.8rem;
-  width: auto;
+.tec i{  
+  font-size: 1.6rem;
   padding-left: 80px;
-  color: var(--color-blue-0);
+  color: var(--color-blue-0);  
 }
 
 /* footer */
