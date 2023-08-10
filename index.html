@@ -58,7 +58,7 @@
           <div class="line3"></div>
         </div>
 
-        <ul class="nav-list">
+        <ul class="nav-list" id="clickMenu">
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#skills">Skills</a></li>
@@ -113,15 +113,11 @@
 
       <section class="about" id="about">
         <div class="about-box">
-          <img src="../assets/png_files/P_1.png" alt="" />
+          <img src="../assets/png_files/P_2.webp" alt="Foto de Eduardo Avelino" />
           <div class="about-text">
-            <h2 #about>About Me</h2>
-            <h3>(Frontend <span>&& </span>Designer)</h3>
+            <h2 #about>About Me</h2>            
             <p>
-              I'm a front-end designer. I'm looking for clean code and pixel
-              perfect design. I've also been trying to make websites more
-              interactive with lottie animations, I still have a long way to go
-              with animations for websites, but the sky is the limit!
+              I'm a front-end developer and UX/UI designer with a passion for blending aesthetics and functionality. My user-centered approach and skills in HTML, CSS, and JavaScript enable me to create innovative solutions that delight and enhance people's lives.
             </p>
           </div>
         </div>
@@ -194,51 +190,78 @@
           <h2>Projects</h2>
         </div>
 
-        <div class="container__projects">
-          <div class="main">
-            <img src="../assets/png_files/Project_Jam.png" alt="" />
-            <div class="projects-text">
-              <h2><span>Plug Jam Session</span></h2>
-              <p>
-                Plug Jam Session is an app created to facilitate the meeting
-                between musicians, companies and venues in order to promote the
-                connection between artists and entrepreneurs in the music
-                business.
-              </p>
+        <!--   Project one    -->
+
+        <div class="projects__slider">
+
+          <div class="container__slider">
+            <div class="container__project active">
+              <div class="main">
+                <img src="../assets/png_files/Project_Jam.webp" alt="" />
+                <div class="projects-text">
+                  <h2><span>Plug Jam Session</span></h2>
+                  <p>
+                    Plug Jam Session is an app created to facilitate the meeting
+                    between musicians, companies and venues in order to promote
+                    the connection between artists and entrepreneurs in the
+                    music business.
+                  </p>
+                  
+                </div>
+              </div>
+              <div class="technologies-box">
+                <h4>Technologies:</h4>
+                <div class="tec-icon"><i class="fa-brands fa-react"></i></div>
+                <div class="tec-icon"><i class="fa-brands fa-html5"></i></div>
+                <div class="tec-icon"><i class="fa-brands fa-css3"></i></div>
+                <div class="tec-icon"><i class="fa-brands fa-square-js"></i></div>
+              </div>
+
               <div class="container__link">
-                <a href="https://github.com/edupreto/PlugJamSession" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://github.com/edupreto/PlugJamSession"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <button><i class="fa-brands fa-github"></i>Github</button>
                 </a>
 
-                <a href="https://www.figma.com/proto/zpdcfx1nddsXpq4rSa90IM/JAM-SESSION?type=design&node-id=85-794&scaling=scale-down&page-id=85%3A792&starting-point-node-id=85%3A794" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://www.figma.com/proto/zpdcfx1nddsXpq4rSa90IM/JAM-SESSION?type=design&node-id=85-794&scaling=scale-down&page-id=85%3A792&starting-point-node-id=85%3A794"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <button><i class="fa-brands fa-figma"></i>Figma</button>
                 </a>
                 <button><i class="fa-solid fa-globe"></i>Page</button>
               </div>
             </div>
           </div>
-          <div class="technologies-box">
-            <h4>Technologies:</h4>
-            <div class="tec"><i class="fa-brands fa-react"></i></div>
-            <div class="tec"><i class="fa-brands fa-html5"></i></div>
-            <div class="tec"><i class="fa-brands fa-css3"></i></div>
-            <div class="tec"><i class="fa-brands fa-square-js"></i></div>
-          </div>
-        </div>
-      </section>
 
-      <section class="projects" id="projects">
-        <div class="container__projects">
-          <div class="main">
-            <img
-              src="../assets/png_files/Pokedex.png"
-              alt="imagem ilustrativa do app"
-            />
-            <div class="projects-text">
-              <h2><span>Pokedex 2022</span></h2>
-              <p>
-                Projeto realizado durante o Bootecamp OrangeTech no ano de 2022.
-              </p>
+          <!--   Project two    -->
+
+          <div class="container__slider">
+            <div class="container__project">
+              <div class="main">
+                <img
+                  src="../assets/png_files/Pokedex.webp"
+                  alt="imagem ilustrativa do app"
+                />
+                <div class="projects-text">
+                  <h2><span>Pokedex 2022</span></h2>
+                  <p>
+                    Project carried out during Bootecamp OrangeTech in the year 2022.
+                  </p>
+                  
+                </div>
+              </div>
+              <div class="technologies-box">
+                <h4>Technologies:</h4>
+                <div class="tec-icon"><i class="fa-brands fa-html5"></i></div>
+                <div class="tec-icon"><i class="fa-brands fa-css3"></i></div>
+                <div class="tec-icon"><i class="fa-brands fa-square-js"></i></div>
+              </div>
+
               <div class="container__link">
                 <a
                   href="https://github.com/edupreto/Pokedex_JS"
@@ -256,16 +279,22 @@
                   <button><i class="fa-solid fa-globe"></i>Page</button>
                 </a>
               </div>
+
             </div>
           </div>
-          <div class="technologies-box">
-            <h4>Technologies:</h4>
-            <div class="tec"><i class="fa-brands fa-html5"></i></div>
-            <div class="tec"><i class="fa-brands fa-css3"></i></div>
-            <div class="tec"><i class="fa-brands fa-square-js"></i></div>
+          <div id="prev" onclick="prev()">
+            <i class="fa-solid fa-arrow-right fa-rotate-180"></i>
+          </div>
+          <div id="next" onclick="next()">
+            <i class="fa-solid fa-arrow-right"></i>
           </div>
         </div>
       </section>
+
+      <!--Section Certificates-->
+
+
+      
 
       <!--Section Footer Start-->
 
@@ -301,5 +330,6 @@
       </footer>
     </main>
     <script src="mobile-navbar.js"></script>
+    <script src="project-slider.js"></script>
   </body>
 </html>
