@@ -1,5 +1,5 @@
 .about{
-  padding: 70px 5px;
+  padding: 70px 5%;
   background-color: var(--background);   
 }
 
@@ -34,6 +34,9 @@
 }
 
 @media (max-width: 992px) {
+  .about{
+    padding: 30px 5% 0;
+  }
   .about-box {
     width: 95%;
     min-width: 320px;
