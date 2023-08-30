@@ -1,297 +1,391 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Eduardo Avelino" />
+    <meta
+      name="description"
+      content="Meu nome é Eduardo, sou designer e desenvolvedor frontend"
+    />
+    <meta
+      name="keywords"
+      content="sites, desenvolvimento, frontend, front-end, ui designer, web development, designer, ui, freelancer, website, potfólio, portfolio"
+    />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="author" content="Eduardo Avelino" />
-  <meta name="description" content="Meu nome é Eduardo, sou designer e desenvolvedor frontend" />
-  <meta name="keywords"
-    content="sites, desenvolvimento, frontend, front-end, ui designer, web development, designer, ui, freelancer, website, potfólio, portfolio" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap"
+      rel="stylesheet"
+    />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="assets/img_files/logo.png" />
 
-  <link rel="shortcut icon" href="assets/img_files/logo.png" />
-  <link rel="stylesheet" href="./styles.css" />
-  
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/about.css" />
+    <link rel="stylesheet" href="css/skills.css" />
+    <link rel="stylesheet" href="css/projects.css" />
+    <link rel="stylesheet" href="css/footer.css" />
 
-  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
-  <title>Eduardo Avelino Portfolio</title>
-</head>
+    <title>Eduardo Avelino Portfolio</title>
+  </head>
 
-<body>
-  <header class="container-header">
-    <nav>
-      <div class="logo">
-        <div>
-          <a href="#"><img src="assets/img_files/logo_.png" alt="Logotipo" /></a>
-        </div>
-        <div class="name">
-          <h2><span>Eduardo Avelino</span></h2>
-        </div>
-      </div>
-
-      <div class="mobile-menu">
-        <div class="line1"></div>
-        <div class="line2"></div>
-        <div class="line3"></div>
-      </div>
-
-      <ul class="nav-list" id="clickMenu">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>        
-      </ul>
-    </nav>
-  </header>
-
-  <!--Home Section Start-->
-
-  <main>
-    <section class="home" id="home">
-      <div class="row">
-        <div class="col-left">
-          <h3>Hello, my name is</h3>
-          <h1>Eduardo <span>Avelino</span></h1>
-          <h3>I am a <span>Frontend</span> Designer.</h3>
-          <div class="social-links">
+  <body>
+    <header class="header">
+      <div class="container-header">
+        <nav>
+          <div class="logo">
             <div>
-              <a href="https://www.linkedin.com/in/eduardo-avelino/" target="_blank" rel="noopener noreferrer">
-                <i class="fa-brands fa-linkedin"></i>
-              </a>
-
-              <a href="https://github.com/edupreto" target="_blank" rel="noopener noreferrer">
-                <i class="fa-brands fa-github"></i>
-              </a>
+              <a href="#"
+                ><img src="assets/img_files/logo_.png" alt="Logotipo"
+              /></a>
+            </div>
+            <div class="name">
+              <h2><span>Eduardo Avelino</span></h2>
             </div>
           </div>
-        </div>
 
-        <div class="col-right">
-          <lottie-player src="../assets/lottie/ynnzCR5Hiv.json" background="transparent" speed="1" loop
-            autoplay></lottie-player>
-        </div>
+          <div class="mobile-menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+
+          <ul class="nav-list" id="clickMenu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+          </ul>
+        </nav>
       </div>
-    </section>
+    </header>
 
-    <!--About Section Start-->
+    <!--Home Section Start-->
 
-    <section class="about" id="about">
-      <div class="about-box">
-        <img src="../assets/img_files/P_2.webp" alt="Foto de Eduardo Avelino" />
-        <div class="about-text">
-          <h2 #about>About Me</h2>          
-          <p>
-            "I'm a designer and a student of front-end development located in Atibaia, SP. Currently, I work as a freelance designer at <a href="https://www.imprimadesign.com.br/" target="_blank" class="store-link">Imprima Design</a>. In my spare time, I also create designs for my shop <a href="https://reserva.ink/dubleq" target="_blank" class="store-link">Dubleq T-Shirts</a>. When I'm not pushing pixels, you'll find me playing my double bass, gardening, or riding my bike with my kids."
-          </p>
+    <main>
+      <section class="home" id="home">
+        <div class="row">
+          <div class="col-left">
+            <h3>Hello, my name is</h3>
+            <h1>Eduardo <span>Avelino</span></h1>
+            <h3>I am a <span>Frontend</span> Developer.</h3>
+          </div>
+          <div class="col-right">
+            <lottie-player
+              src="../assets/lottie/ynnzCR5Hiv.json"
+              background="transparent"
+              speed="1"
+              loop
+              autoplay
+            ></lottie-player>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!--Skills Section Start-->
+      <!--About Section Start-->
 
-    <section class="skills" id="skills">
-      <div class="title">
-        <h2>Skills & Online Courses</h2>
-      </div>
-      <div class="box-grid">
-        <div class="card">
-          <i class="fa-brands fa-square-js"></i>
-          <h2>JavaScript</h2>
-          <div class="info">
+      <section class="about" id="about">
+        <div class="about-box">
+          <img
+            src="../assets/img_files/P_2.webp"
+            alt="Foto de Eduardo Avelino"
+          />
+          <div class="about-text">
+            <h2 #about>About Me</h2>
             <p>
-              Learn how to code in one of the most in-demand languages of
-              today
+              "I'm a designer and a student of front-end development located in
+              Atibaia, SP. Currently, I work as a freelance designer at
+              <a
+                href="https://www.imprimadesign.com.br/"
+                target="_blank"
+                class="store-link"
+                >Imprima Design</a
+              >. In my spare time, I also create designs for my shop
+              <a
+                href="https://reserva.ink/dubleq"
+                target="_blank"
+                class="store-link"
+                >Dubleq T-Shirts</a
+              >. When I'm not pushing pixels, you'll find me playing my double
+              bass, gardening, or riding my bike with my kids."
             </p>
-            <a href="https://dio.me/curso-javascript/AFL36RHLZ5V4" target="_blank" class="button">View Course</a>
           </div>
         </div>
+      </section>
 
-        <div class="card">
-          <i class="fa-brands fa-css3-alt"></i>
-          <h2>CSS</h2>
-          <div class="info">
-            <p>Discover how to elegantly style web pages using CSS</p>
-            <a href="https://dio.me/curso-css/AFL36RHLZ5V4" target="_blank" class="button">View Course</a>
-          </div>
+      <!--Skills Section Start-->
+
+      <section class="skills" id="skills">
+        <div class="title">
+          <h2>Skills & Courses</h2>
         </div>
-
-        <div class="card">
-          <i class="fa-brands fa-html5"></i>
-          <h2>HTML</h2>
-          <div class="info">
-            <p>Learn how to structure the web with HTML</p>
-            <a href="https://dio.me/curso-html/AFL36RHLZ5V4" target="_blank" class="button">View Course</a>
-          </div>
-        </div>
-      </div>
-      <div class="box-grid">
-        <div class="card">
-          <i class="fa-brands fa-angular"></i>
-          <h2>Angular</h2>
-          <div class="info">
-            <p>
-              Angular helps you create dynamic and responsive web applications
-            </p>
-            <a href="https://dio.me/curso-angular/AFL36RHLZ5V4" target="_blank" class="button">View Course</a>
-          </div>
-        </div>
-        <div class="card">
-          <i class="fa-brands fa-react"></i>
-          <h2>React</h2>
-          <div class="info">
-            <p>
-              Discover how to build interactive and reusable UI components
-              using React
-            </p>
-            <a href="https://dio.me/curso-css/AFL36RHLZ5V4" target="_blank" class="button">View Course</a>
-          </div>
-        </div>
-        <div class="card">
-          <img src="/assets/svg_files/TS.svg" />
-          <h2>TypeScript</h2>
-          <div class="info">
-            <p>
-              Master TypeScript, a JavaScript superset maintained by Microsoft
-            </p>
-            <a href="https://www.dio.me/curso-typescript/AFL36RHLZ5V4" target="_blank" class="button">View Course</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!--Projects Section Start-->
-
-    <section class="projects" id="projects">
-      <div class="title">
-        <h2>Projects</h2>
-      </div>
-
-      <!--   Project one    -->
-
-      <div class="projects__slider">
-        <div class="container__slider">
-          <div class="container__project active">
-            <div class="main">
-              <img src="../assets/img_files/Project_Jam.webp"
-                alt="imagem ilustrativa de um notebook com a tela inicial do projeto Plug Jem Session" />
-              <div class="projects-text">
-                <h2><span>Plug Jam Session</span></h2>
+        <div class="skills__container">
+          <div class="box-grid">
+            <div class="card">
+              <i class="fa-brands fa-square-js"></i>
+              <h2>JavaScript</h2>
+              <div class="info">
                 <p>
-                  Plug Jam Session is an app created to facilitate the meeting
-                  between musicians, companies and venues in order to promote
-                  the connection between artists and entrepreneurs in the
-                  music business.
+                  Learn how to code in one of the most in-demand languages of
+                  today
                 </p>
-              </div>
-            </div>
-            <div class="technologies-box">
-              <h4>Technologies:</h4>
-              <div class="tec-icon"><i class="fa-brands fa-react"></i></div>
-              <div class="tec-icon"><i class="fa-brands fa-html5"></i></div>
-              <div class="tec-icon"><i class="fa-brands fa-css3"></i></div>
-              <div class="tec-icon">
-                <i class="fa-brands fa-square-js"></i>
+                <a
+                  href="https://dio.me/curso-javascript/AFL36RHLZ5V4"
+                  target="_blank"
+                  class="button"
+                  >View Course</a
+                >
               </div>
             </div>
 
-            <div class="container__link">
-              <a href="https://github.com/edupreto/PlugJamSession" target="_blank" rel="noopener noreferrer">
-                <button><i class="fa-brands fa-github"></i>Github</button>
-              </a>
-
-              <a href="https://www.figma.com/proto/zpdcfx1nddsXpq4rSa90IM/JAM-SESSION?type=design&node-id=85-794&scaling=scale-down&page-id=85%3A792&starting-point-node-id=85%3A794"
-                target="_blank" rel="noopener noreferrer">
-                <button><i class="fa-brands fa-figma"></i>Figma</button>
-              </a>
-              <button><i class="fa-solid fa-globe"></i>Page</button>
+            <div class="card">
+              <i class="fa-brands fa-css3-alt"></i>
+              <h2>CSS</h2>
+              <div class="info">
+                <p>Discover how to elegantly style web pages using CSS</p>
+                <a
+                  href="https://dio.me/curso-css/AFL36RHLZ5V4"
+                  target="_blank"
+                  class="button"
+                  >View Course</a
+                >
+              </div>
             </div>
-          </div>
-        </div>
 
-        <!--   Project two    -->
+            <div class="card">
+              <i class="fa-brands fa-html5"></i>
+              <h2>HTML</h2>
+              <div class="info">
+                <p>Learn how to structure the web with HTML</p>
+                <a
+                  href="https://dio.me/curso-html/AFL36RHLZ5V4"
+                  target="_blank"
+                  class="button"
+                  >View Course</a
+                >
+              </div>
+            </div>
 
-        <div class="container__slider">
-          <div class="container__project">
-            <div class="main">
-              <img src="../assets/img_files/Pokedex.webp"
-                alt="imagem ilustrativa de um notebook com a tela inicial do projeto Pokedex" />
-              <div class="projects-text">
-                <h2><span>Pokedex 2022</span></h2>
+            <div class="card">
+              <i class="fa-brands fa-angular"></i>
+              <h2>Angular</h2>
+              <div class="info">
                 <p>
-                  Project carried out during Bootecamp OrangeTech in the year
-                  2022.
+                  Angular helps you create dynamic and responsive web
+                  applications
                 </p>
-              </div>
-            </div>
-            <div class="technologies-box">
-              <h4>Technologies:</h4>
-              <div class="tec-icon"><i class="fa-brands fa-html5"></i></div>
-              <div class="tec-icon"><i class="fa-brands fa-css3"></i></div>
-              <div class="tec-icon">
-                <i class="fa-brands fa-square-js"></i>
+                <a
+                  href="https://dio.me/curso-angular/AFL36RHLZ5V4"
+                  target="_blank"
+                  class="button"
+                  >View Course</a
+                >
               </div>
             </div>
 
-            <div class="container__link">
-              <a href="https://github.com/edupreto/Pokedex_JS" target="_blank" rel="noopener noreferrer">
-                <button><i class="fa-brands fa-github"></i>Github</button>
-              </a>
+            <div class="card">
+              <i class="fa-brands fa-react"></i>
+              <h2>React</h2>
+              <div class="info">
+                <p>
+                  Discover how to build interactive and reusable UI components
+                  using React
+                </p>
+                <a
+                  href="https://dio.me/curso-css/AFL36RHLZ5V4"
+                  target="_blank"
+                  class="button"
+                  >View Course</a
+                >
+              </div>
+            </div>
 
-              <a href="https://edupreto.github.io/Pokedex_JS/" target="_blank" rel="noopener noreferrer">
-                <button><i class="fa-solid fa-globe"></i>Page</button>
-              </a>
+            <div class="card">
+              <img src="/assets/svg_files/TS.svg" />
+              <h2>TypeScript</h2>
+              <div class="info">
+                <p>
+                  Master TypeScript, a JavaScript superset maintained by
+                  Microsoft
+                </p>
+                <a
+                  href="https://www.dio.me/curso-typescript/AFL36RHLZ5V4"
+                  target="_blank"
+                  class="button"
+                  >View Course</a
+                >
+              </div>
             </div>
           </div>
         </div>
-        <div id="prev" onclick="prev()">
-          <i class="fa-solid fa-arrow-right fa-rotate-180"></i>
+      </section>
+
+      <!--Projects Section Start-->
+
+      <section class="projects" id="projects">
+        <div class="title">
+          <h2>Projects</h2>
         </div>
-        <div id="next" onclick="next()">
-          <i class="fa-solid fa-arrow-right"></i>
+
+        <!--   Project one    -->
+
+        <div class="projects__slider">
+          <div class="container__slider">
+            <div class="container__project active">
+              <div class="main">
+                <img
+                  src="../assets/img_files/Project_Jam.webp"
+                  alt="imagem ilustrativa de um notebook com a tela inicial do projeto Plug Jem Session"
+                />
+                <div class="projects-text">
+                  <h2><span>Plug Jam Session</span></h2>
+                  <p>
+                    Plug Jam Session is an app created to facilitate the meeting
+                    between musicians, companies and venues in order to promote
+                    the connection between artists and entrepreneurs in the
+                    music business.
+                  </p>
+                </div>
+              </div>
+              <div class="technologies-box">
+                <h4>Technologies:</h4>
+                <div class="tec-icon"><i class="fa-brands fa-react"></i></div>
+                <div class="tec-icon"><i class="fa-brands fa-html5"></i></div>
+                <div class="tec-icon"><i class="fa-brands fa-css3"></i></div>
+                <div class="tec-icon">
+                  <i class="fa-brands fa-square-js"></i>
+                </div>
+              </div>
+              <div class="container__link">
+                <a
+                  href="https://github.com/edupreto/PlugJamSession"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button>
+                    <i class="fa-brands fa-github"></i><span>Github</span>
+                  </button>
+                </a>
+                <a
+                  href="https://www.figma.com/proto/zpdcfx1nddsXpq4rSa90IM/JAM-SESSION?type=design&node-id=85-794&scaling=scale-down&page-id=85%3A792&starting-point-node-id=85%3A794"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button>
+                    <i class="fa-brands fa-figma"></i><span>Figma</span>
+                  </button>
+                </a>
+                <button>
+                  <i class="fa-solid fa-globe"></i><span>Page</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!--   Project two    -->
+
+          <div class="container__slider">
+            <div class="container__project">
+              <div class="main">
+                <img
+                  src="../assets/img_files/Pokedex.webp"
+                  alt="imagem ilustrativa de um notebook com a tela inicial do projeto Pokedex"
+                />
+                <div class="projects-text">
+                  <h2><span>Pokedex 2022</span></h2>
+                  <p>
+                    Project carried out during Bootecamp OrangeTech in the year
+                    2022.
+                  </p>
+                </div>
+              </div>
+              <div class="technologies-box">
+                <h4>Technologies:</h4>
+                <div class="tec-icon"><i class="fa-brands fa-html5"></i></div>
+                <div class="tec-icon"><i class="fa-brands fa-css3"></i></div>
+                <div class="tec-icon">
+                  <i class="fa-brands fa-square-js"></i>
+                </div>
+              </div>
+              <div class="container__link">
+                <a
+                  href="https://github.com/edupreto/Pokedex_JS"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button>
+                    <i class="fa-brands fa-github"></i><span>Github</span>
+                  </button>
+                </a>
+                <a
+                  href="https://edupreto.github.io/Pokedex_JS/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button>
+                    <i class="fa-solid fa-globe"></i><span>Page</span>
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div id="prev" onclick="prev()">
+            <i class="fa-solid fa-arrow-right fa-rotate-180"></i>
+          </div>
+          <div id="next" onclick="next()">
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!--Section Certificates-->
+      <!--Section Footer Start-->
 
-    <!--Section Footer Start-->
-
-    <footer class="footer-box">
-      <div class="footer-left">
-        <p>Copyright © 2023  <span>Eduardo Avelino</span></p>
-      </div>
-
-      <div class="footer-center">
-        <div>
-          <a href="https://www.linkedin.com/in/eduardo-avelino/" target="_blank" rel="noopener noreferrer">
-            <i class="fa-brands fa-linkedin"></i>
-          </a>
-
-          <a href="https://github.com/edupreto" target="_blank" rel="noopener noreferrer">
-            <i class="fa-brands fa-github"></i>
-          </a>
+      <footer class="footer-box">
+        <div class="footer-left">
+          <p>Copyright © 2023 <span>Eduardo Avelino</span></p>
         </div>
-      </div>
+        <div class="footer-center">
+          <div>
+            <a
+              href="https://www.linkedin.com/in/eduardo-avelino/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a
+              href="https://github.com/edupreto"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </div>
+        </div>
 
-      <div class="footer-right">
-        <p>Powered by</p>
-        <img src="../assets/img_files/logo_coffee.png" alt="Logotipo" />
-      </div>
-    </footer>
-  </main>
-  <script src="mobile-navbar.js"></script>
-  <script src="project-slider.js"></script>
-</body>
-
+        <div class="footer-right">
+          <p>Powered by</p>
+          <img src="../assets/img_files/logo_coffee.png" alt="Logotipo" />
+        </div>
+      </footer>
+    </main>
+    <script src="/js/mobile-navbar.js"></script>
+    <script src="/js/project-slider.js"></script>
+  </body>
 </html>
