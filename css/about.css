@@ -12,11 +12,10 @@
 }
 
 .about img{  
-  width: clamp(20rem, 50vw, 70rem);
+  width: clamp(20rem, 40vw, 60rem);
 }
 
 .about-text h2{
-  font-size: clamp(1.8rem, 3vw, 5rem);
   text-transform: capitalize;
   margin-bottom: 20px;  
 }
@@ -25,7 +24,6 @@
   color: var(--color-neutral-2);
   letter-spacing: 1px;
   line-height: 28px;
-  font-size: clamp(1rem, 1vw, 1.5rem);
   margin-bottom: 45px;    
 }
 
@@ -41,25 +39,18 @@
     width: 95%;
     min-width: 320px;
     flex-direction: column;
-  }
-  .about-box img { 
-    width: 18rem;
-  }
+  }  
   .about-text{
     min-width: 300px;    
   }
   .about-text h2 {    
-    font-size: clamp(1.8rem, 3vw, 5rem);
     margin-bottom: 10px;
   }
-  .about-text h3 {
-    font-size: 1.4rem;
-  }
+  
   .about-text p {
     color: var(--color-neutral-2);
     letter-spacing: 1px;
     line-height: 28px;
-    font-size: 1.25rem;
     margin-bottom: 45px;
   }
 }
